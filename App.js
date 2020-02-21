@@ -43,7 +43,7 @@ class App extends React.Component {
         <Provider store={store}>
           <Router>
             <Stack navigationBarStyle={{ backgroundColor: "rgba(0,0,0,0.5)" }} titleStyle={{ color: "white", textAlign: "center", }}>
-              <Scene key="userForm" component={FloatingLabelExample} title="User Entry Form" init />
+              <Scene key="userForm" component={FloatingLabelExample} title="Combustivel" init />
               <Scene
                 key="list"
                 component={ListItemSelectedExample}
